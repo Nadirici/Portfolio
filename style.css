@@ -214,6 +214,11 @@ a:hover {
     height: 2rem;
 }
 
+.cy-icon{
+  cursor: pointer;
+  height: 5rem;
+}
+
 
 /* boutons */
 
