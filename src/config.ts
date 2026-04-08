@@ -2,14 +2,15 @@ export const siteConfig = {
   name: "Nadir Nehili",
   title: "Étudiant Ingénieur IA & Data",
   description: "Portfolio de Nadir Nehili — IA, Data Engineering & Machine Learning",
-  accentColor: "#0891b2",
+  accentColor: "#1d4ed8",
+  photo: "/images/profile.jpg",
   social: {
     email: "nadir1401@gmail.com",
     linkedin: "https://www.linkedin.com/in/nadir-n-196628292/",
     github: "https://github.com/Nadirici",
   },
   aboutMe:
-    "Étudiant en dernière année à CY Tech, spécialisé en IA et Systèmes d'Information. J'aime transformer des données brutes en quelque chose d'utile — des pipelines propres, des modèles qui tiennent en production, et des dashboards sur lesquels on peut vraiment s'appuyer. J'ai travaillé sur des projets allant de la recherche en deep learning clinique (prédiction du sepsis avec des modèles de diffusion, AUROC 0.87) à des pipelines de data engineering complets. Je m'intéresse autant au côté ingénierie qu'au côté science de la donnée, et je cherche une équipe où je peux apprendre vite et apporter de la valeur dès le départ.",
+    "Étudiant ingénieur en dernière année à CY Tech, spécialisé en IA et Data. Ce qui m'attire dans ce domaine, c'est de prendre un volume de données qui paraît intimidant et d'en faire quelque chose d'utile sur lequel on peut vraiment décider. Je suis rigoureux et j'aime aller au fond des choses. Quand quelque chose ne se passe pas comme prévu, j'apprends à analyser ce qui a coincé, ajuster et repartir. En dehors du travail, je joue aux échecs et aux jeux vidéo, je lis, et je pratique la musculation. Des activités différentes mais qui ont toutes un point commun : la progression se construit dans la régularité.",
   skills: [
     "Python",
     "PySpark",
@@ -70,7 +71,18 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "Alignerr",
+      logo: "/images/alignerr.jpg",
+      title: "AI Trainer — Freelance",
+      dateRange: "Sep 2025 - Mar 2026",
+      bullets: [
+        "Évaluation de réponses générées par des LLMs sur des codebases réelles pour le compte d'Anthropic : comparaison et notation de paires de réponses, vérification que le code produit est production-ready (lisibilité, robustesse, bonnes pratiques).",
+        "Participation à l'amélioration de modèles d'IA en situation réelle : analyse de scénarios complexes fournis via des fichiers YAML, évaluation des risques identifiés par l'agent et validation de la qualité de ses raisonnements et décisions.",
+      ],
+    },
+    {
       company: "Outlier",
+      logo: "/images/outlier.jpg",
       title: "Data Labeler — Freelance",
       dateRange: "Fév 2025 - Août 2025",
       bullets: [
@@ -81,6 +93,7 @@ export const siteConfig = {
     },
     {
       company: "Woo'déco",
+      logo: "/images/woodeco.jpg",
       title: "Développeur Web — Stage",
       dateRange: "Juin 2024 - Sep 2024",
       bullets: [
@@ -92,6 +105,7 @@ export const siteConfig = {
   education: [
     {
       school: "CY Tech (ex-EISTI)",
+      logo: "/images/cytech.png",
       degree: "Titre d'Ingénieur — Génie des Systèmes d'Information, spécialité IA",
       dateRange: "2021 - 2026",
       achievements: [
@@ -102,6 +116,7 @@ export const siteConfig = {
     },
     {
       school: "Bahçeşehir Üniversitesi (BAU) — Istanbul",
+      logo: "/images/bau.png",
       degree: "Échange Académique — Computer Engineering",
       dateRange: "Fév 2025 - Juin 2025",
       achievements: [
